@@ -38,3 +38,9 @@ nav { padding: 0 15px }
 .card-content {
   flex-grow: 1;
 }
+
+
+.category-list {
+  display: flex;
+  flex-wrap: wrap;
+}

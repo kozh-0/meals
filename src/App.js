@@ -6,7 +6,7 @@ import Header from './Components/Header';
 import About from './pages/About';
 import Contact from './pages/Contact';
 import Home from './pages/Home';
-import Movie from './pages/Movie';
+import Category from './pages/Category';
 import NotFound from './pages/NotFound';
 
 export default function App() {
@@ -18,9 +18,10 @@ export default function App() {
               <Route exact path='/'>
                 <Home/>
               </Route>
+              
               <Route path='/about' component={About}/>
               <Route path='/contacts' component={Contact}/>
-              <Route path='/movies/:title' component={Movie}/>
+              <Route path='/category/:name' component={Category}/>
               <Route component={NotFound}/>
             </Switch>
           </main>
