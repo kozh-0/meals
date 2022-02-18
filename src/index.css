@@ -11,3 +11,30 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+nav { padding: 0 15px }
+.page-footer { padding: 0 }
+.container {
+  max-width: 1332px;
+  margin: 0 auto;
+}
+.content {
+  padding: 1.5rem 0;
+  min-height: calc(100vh - 64px - 50px);
+}
+
+.CategoryList {
+  display: flex;
+  flex-wrap: wrap;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  margin: 15px;
+  width: 300px;
+}
+
+.card-content {
+  flex-grow: 1;
+}
