@@ -44,3 +44,22 @@ nav { padding: 0 15px }
   display: flex;
   flex-wrap: wrap;
 }
+
+
+.recipe {
+  display: flex;
+  flex-wrap: wrap;
+}
+.recipe-img {
+  max-width: 100%;
+}
+/* .recipe-txt {
+  padding: 15px;
+} */
+
+/* .recipe-img {
+  transition: all .4s ease;
+}
+.recipe-img:hover {
+  transform: scale(1.2)
+} */

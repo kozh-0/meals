@@ -13,7 +13,7 @@ export default function Meal(props) {
                 <span className="card-title">{strMeal}</span>
             </div>
             <div className="card-action">
-                <Link to={`/meal/${idMeal}`} className="btn">Watch recipe</Link>
+                <Link to={`/meal-recipe/${idMeal}`} className="btn">Watch recipe</Link>
             </div>
         </div>
         </>
