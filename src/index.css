@@ -26,6 +26,7 @@ nav { padding: 0 15px }
 .CategoryList {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 .card {
   display: flex;
