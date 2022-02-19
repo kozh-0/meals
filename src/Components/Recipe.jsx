@@ -8,6 +8,8 @@ export default function Recipe(props) {
         strArea,
         strInstructions,
         strMealThumb,
+        strYoutube,
+        idMeal
     } = props;
 
     return (
@@ -21,7 +23,33 @@ export default function Recipe(props) {
                         <h4>{strArea} {strCategory}</h4>
                         <p>{strInstructions}</p>
                     </div>
+
+                    <table className="centered">
+                        <thead>
+                            <tr>
+                                <th>Ingredient</th>
+                                <th>Measure</th>
+                            </tr>
+                        </thead>
+                        <tbody>      
+                            {Object.keys(props).map(key => {
+                                if (key.includes('Ingredient') && props[key]) {
+                                    return (
+                                        <tr key={key}>
+                                            <td>{props[key]}</td>
+                                            <td>{
+                                                props[`strMeasure${key.slice(13)}`]
+                                            }</td>
+                                        </tr>
+                                    )
+                                }
+                                return null;
+                            })}
+                        </tbody>
+                    </table>
                 </div>
+                    <h5>Video recipe:</h5>
+                    {strYoutube ? <iframe title={idMeal} src={`https://www.youtube.com/embed/${strYoutube.slice(-11)}`} /> : null}
             </div>
         </>
     )
