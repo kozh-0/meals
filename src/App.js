@@ -16,7 +16,7 @@ export default function App() {
         <Header/>
           <main className='container content'>
             <Switch>
-              <Route exact path='/'>
+              <Route exact path='/meals'>
                 <Home/>
               </Route>
               
