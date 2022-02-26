@@ -26,11 +26,12 @@ export default function Home() {
         getAllCategories()
         .then((data) => {
             setCatalog(data.categories);
-            setfilteredCatalog(data.categories.filter(item => 
+            setfilteredCatalog( search ?
+                data.categories.filter(item => 
                 item.strCategory
                     .toLowerCase()
                     .includes(search.split('=')[1].toLocaleLowerCase())
-                )
+                ) : data.categories
             );
         });
     }, [search]);

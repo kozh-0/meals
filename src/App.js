@@ -12,11 +12,11 @@ import NotFound from './pages/NotFound';
 
 export default function App() {
   return (
-    <Router>
+    <Router basename='/meals'>
         <Header/>
           <main className='container content'>
             <Switch>
-              <Route exact path='/meals'>
+              <Route exact path='/'>
                 <Home/>
               </Route>
               
