@@ -4,7 +4,7 @@ export default function Header() {
     return (
         <nav className="#43a047 green darken-1">
         <div className="nav-wrapper">
-          <Link to="/meals" className="brand-logo">React Shop</Link>
+          <Link to="/" className="brand-logo">React Shop</Link>
           <ul id="nav-mobile" className="right hide-on-med-and-down">
             <li><Link to="/about">About</Link></li>
             <li><Link to="/contacts">Contacts</Link></li>
