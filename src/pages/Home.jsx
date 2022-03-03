@@ -13,7 +13,7 @@ export default function Home() {
     const { push } = useHistory();
     // console.log(push);
     // console.log(pathname, search);
-    console.log( search);
+    console.log(search);
 
     const handleSearch = (str) => {
         setfilteredCatalog(
