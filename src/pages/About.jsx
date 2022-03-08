@@ -49,7 +49,7 @@ export default function About() {
                     <span key={item.id} className="art-list-item">{item.art}</span>
                 ))}
             </div>
-            <p>React проекты написаны на хуках при помощи различных API (OMDb API, FortniteApi.io, TheMealDb), на их основе созданы карточки с добавлением логики, проекты адаптивны, оформлены через materializecss. SPA написано при помощи React Router DOM. Для коммитов использую Git, для размещения gh-pages.
+            <p>React проекты написаны на хуках при помощи различных API (OMDb API, FortniteApi.io, TheMealDb), на их основе созданы карточки с добавлением логики, проекты адаптивны, оформлены через materializecss. SPA написано при помощи React Router DOM 5.3.0.; Ecom Shop написан через хуки useReducer + useContext; Media проект написан как на классовых компонентах, так и на хуках (две ветки на Гитхаб). Для коммитов использую Git, для размещения gh-pages.
             <br />Готов к изучению новых технологий.</p> 
 
 
