@@ -7,6 +7,7 @@ export default function About() {
         {art: 'CSS3', id: 'xcvzx'}, 
         {art: 'JavaScript (ES6+)', id: 'fgndf'}, 
         {art: 'React', id: 'rej5w'}, 
+        {art: 'Redux', id: 'asfewgz'}, 
         {art: 'Webpack', id: 'cnr52'}, 
         {art: 'Git', id: 'fyjky9'}, 
         {art: 'GitHub', id: 'thrh12'}, 
@@ -49,8 +50,15 @@ export default function About() {
                     <span key={item.id} className="art-list-item">{item.art}</span>
                 ))}
             </div>
-            <p>React проекты написаны на хуках при помощи различных API (OMDb API, FortniteApi.io, TheMealDb), на их основе созданы карточки с добавлением логики, проекты адаптивны, оформлены через materializecss. SPA написано при помощи React Router DOM 5.3.0.; Ecom Shop написан через хуки useReducer + useContext; Media проект написан как на классовых компонентах, так и на хуках (две ветки на Гитхаб). Для коммитов использую Git, для размещения gh-pages.
-            <br />Готов к изучению новых технологий.</p> 
+            <p>React проекты написаны на хуках при помощи различных API
+(OMDb, FortniteApi.io, TheMealDb, TV Maze), на их основе созданы
+карточки с добавлением логики, проекты адаптивны, оформлены
+через materializecss. SPA написаны при помощи React Router DOM
+5.3.0.; Ecom Shop написан через хуки useReducer + useContext;
+Series (TV Maze API) проект написан как SPA с использованием
+Redux, для пагинации в проект установил MUI. Для коммитов
+использую Git, для размещения gh-pages.
+            <br />Готов к изучению новых технологий и развитию.</p> 
 
 
             <h5>Опыт работы и обязанности:</h5>
@@ -61,7 +69,7 @@ export default function About() {
             <div>
                 <h5>Другие проекты:</h5>
                 <ol style={{'paddingLeft': '15px'}}>
-                    <a href="https://kozh-0.github.io/film-search/"><li>Media (React)</li></a>
+                    <a href="- https://kozh-0.github.io/tvmaze/"><li>Series SPA (React)</li></a>
                     <a href="https://kozh-0.github.io/shop-project/"><li>Ecom shop (React)</li></a>
                     <a href="https://kozh-0.github.io/project/"><li>Проект (html, css, js)</li></a>
                     <a href="https://kozh-0.github.io/calc/"><li>Калькулятор калорий (js)</li></a>
