@@ -1,7 +1,5 @@
 # Meals recipe portfolio project
-
 [Demo.](https://kozh-0.github.io/meals/)
 
-## Description
-
-This project parse data from https://www.themealdb.com/ API.
+## Описание
+Meals SPA - приложение с едой, категориями, и подробной страницей с рецептами и видео, все с TheMealDb API. 
